@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/aisbergen/30github/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/aisbergen/30github/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Matrix
 |  |
@@ -29,4 +30,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2132-convert-1d-array-into-2d-array](https://github.com/aisbergen/30github/tree/master/2132-convert-1d-array-into-2d-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/aisbergen/30github/tree/master/0026-remove-duplicates-from-sorted-array) |
 <!---LeetCode Topics End-->
