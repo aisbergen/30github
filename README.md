@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/aisbergen/30github/tree/master/0014-longest-common-prefix) |
 | [0387-first-unique-character-in-a-string](https://github.com/aisbergen/30github/tree/master/0387-first-unique-character-in-a-string) |
+| [0874-backspace-string-compare](https://github.com/aisbergen/30github/tree/master/0874-backspace-string-compare) |
 ## Queue
 |  |
 | ------- |
@@ -31,14 +32,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0874-backspace-string-compare](https://github.com/aisbergen/30github/tree/master/0874-backspace-string-compare) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/aisbergen/30github/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Two Pointers
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aisbergen/30github/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0283-move-zeroes](https://github.com/aisbergen/30github/tree/master/0283-move-zeroes) |
+| [0874-backspace-string-compare](https://github.com/aisbergen/30github/tree/master/0874-backspace-string-compare) |
 ## Trie
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/aisbergen/30github/tree/master/0014-longest-common-prefix) |
+## Stack
+|  |
+| ------- |
+| [0874-backspace-string-compare](https://github.com/aisbergen/30github/tree/master/0874-backspace-string-compare) |
 <!---LeetCode Topics End-->
