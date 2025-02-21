@@ -230,3 +230,47 @@ for start, goal in tasks:
     # IDA
     ida_path, ida_expanded, ida_fringe = ida_search(start, goal)
     print(f"IDA Path: {ida_path}, Cost: {len(ida_path) - 1 if ida_path else 'N/A'}, Expanded: {ida_expanded}, Max Fringe: {ida_fringe}")
+
+# Task 4 Weighted A*
+# Extend your A* search to accept a weighting coefficient for the heuristic. Experiment with a few values and compare its performance to the two previous algorithms. See how the weight affects:
+
+# the speed with with a solution is found
+# the optimality of the resulting path
+
+import heapq
+
+def a_star_weighted_search(start, goal, w=1.0):
+    """Weighted A* Search Algorithm with Performance Metrics"""
+
+    frontier = []
+    heapq.heappush(frontier, (0, start))  # Priority queue with f(n) values
+    came_from = {}  # Tracks the path
+    g_costs = {city: float('inf') for city in sld_dists_dict}
+    g_costs[start] = 0  # Start city cost is 0
+
+    nodes_expanded = 0
+    max_fringe_size = 0
+
+    while frontier:
+        max_fringe_size = max(max_fringe_size, len(frontier))  # Track max fringe size
+        current_f, current_node = heapq.heappop(frontier)
+
+        nodes_expanded += 1  # Track nodes expanded
+
+        if current_node == goal:
+            return reconstruct_path(came_from, start, goal), g_costs[goal], nodes_expanded, max_fringe_size
+
+        for neighbor, cost in neighbours(current_node):
+            new_g = g_costs[current_node] + cost
+
+            if new_g < g_costs[neighbor]:  # Found a better path
+                g_costs[neighbor] = new_g
+                f_value = new_g + w * heuristic(neighbor, goal)  #weighting to heuristic
+                heapq.heappush(frontier, (f_value, neighbor))
+                came_from[neighbor] = current_node  # Store parent
+
+    return None, float('inf'), nodes_expanded, max_fringe_size  # No path found
+
+path = a_star_weighted_search('A', 'J')
+print("Shortest Path:", path)
+
