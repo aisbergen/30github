@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/aisbergen/30github/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/aisbergen/30github/tree/master/0283-move-zeroes) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/aisbergen/30github/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/aisbergen/30github/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Matrix
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0874-backspace-string-compare](https://github.com/aisbergen/30github/tree/master/0874-backspace-string-compare) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/aisbergen/30github/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/aisbergen/30github/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Two Pointers
 |  |
 | ------- |
@@ -44,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/aisbergen/30github/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/aisbergen/30github/tree/master/0283-move-zeroes) |
 | [0874-backspace-string-compare](https://github.com/aisbergen/30github/tree/master/0874-backspace-string-compare) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/aisbergen/30github/tree/master/2265-partition-array-according-to-given-pivot) |
 ## Trie
 |  |
 | ------- |
