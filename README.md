@@ -5,11 +5,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/aisbergen/30github/tree/master/0387-first-unique-character-in-a-string) |
+| [0409-longest-palindrome](https://github.com/aisbergen/30github/tree/master/0409-longest-palindrome) |
 ## String
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/aisbergen/30github/tree/master/0014-longest-common-prefix) |
 | [0387-first-unique-character-in-a-string](https://github.com/aisbergen/30github/tree/master/0387-first-unique-character-in-a-string) |
+| [0409-longest-palindrome](https://github.com/aisbergen/30github/tree/master/0409-longest-palindrome) |
 | [0874-backspace-string-compare](https://github.com/aisbergen/30github/tree/master/0874-backspace-string-compare) |
 ## Queue
 |  |
@@ -62,4 +64,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/aisbergen/30github/tree/master/0088-merge-sorted-array) |
+## Greedy
+|  |
+| ------- |
+| [0409-longest-palindrome](https://github.com/aisbergen/30github/tree/master/0409-longest-palindrome) |
 <!---LeetCode Topics End-->
